@@ -1,8 +1,8 @@
 import random
 
 value = 0
-response = input('Enter y to roll the dice and n to exit : ')
-if response == 'y' :
+response = input('Enter "roll" to roll the dice and n to exit : ')
+if response == 'roll' :
     value += 1
 
 while response == 'y':
